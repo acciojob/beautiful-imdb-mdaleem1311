@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.container {
+    position: relative;
+    top: 50%; /* Center vertically */
+    width: 100%; /* Full width */
+    text-align: center; /* Center text */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+}
+.moviePic{
+	height:350px;
+	width:210px;
+	opacity:0.8
+}
+.movieDetail {
+    font-size: 18px; /* Adjust font size as needed */
+    max-width: 800px; /* Optional: limit width for better readability */
+    margin: 0 auto; /* Center the paragraph within the container */
+}
